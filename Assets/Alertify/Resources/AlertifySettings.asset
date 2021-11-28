@@ -3,21 +3,22 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d84f85c3050d431ebee752067158749, type: 3}
+  m_Script: {fileID: 11500000, guid: 850a35fe727377646aca0f09e76fcd48, type: 3}
   m_Name: AlertifySettings
   m_EditorClassIdentifier: 
   NotificationSettings:
-    PoolSize: 5
+    PoolSize: 10
     Duration: 2.5
-    MessageColor: {r: 0.16078432, g: 0.5019608, b: 0.7254902, a: 1}
-    SuccessColor: {r: 0.15294118, g: 0.68235296, b: 0.3764706, a: 1}
-    ErrorColor: {r: 0.7529412, g: 0.22352941, b: 0.16862746, a: 1}
-    WarningColor: {r: 0.9529412, g: 0.6117647, b: 0.07058824, a: 1}
+    MessageColor: {r: 1, g: 1, b: 1, a: 1}
+    SuccessColor: {r: 0.091625154, g: 0.6698113, b: 0.091625154, a: 1}
+    ErrorColor: {r: 1, g: 0, b: 0, a: 1}
+    WarningColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   DialogSettings:
     BoxWidth: 5
     OkColor: {r: 0, g: 1, b: 0, a: 1}

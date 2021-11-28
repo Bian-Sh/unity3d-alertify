@@ -29,7 +29,7 @@ namespace Alertify
         {
             //settings = Settings.Instance.DialogSettings;
             GameObject prefab = Resources.Load<GameObject>("Prefabs/DialogElement");
-
+            Debug.Log($"{nameof(Dialog)}: 1144");
             element = Instantiate(prefab, transform).GetComponent<DialogElement>();
         }
 
